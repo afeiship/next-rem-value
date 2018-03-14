@@ -9,4 +9,10 @@ npm install -S afeiship/next-rem-value --registry=https://registry.npm.taobao.or
 ## usage:
 ```js
 //DOCS here!
+import 'next-rem-value';
+
+//iphone6: 50px
+
+nx.remValue('1.22rem');
+// 1.22 * 50 = 61
 ```
